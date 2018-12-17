@@ -1,7 +1,7 @@
 //By Anando Zaman
 #include <SoftwareSerial.h>
 
-SoftwareSerial BT(10, 11); //TX, RX respetively
+SoftwareSerial BT(10, 11); 
 char button;
 //motor A
 const int motorPin1  = 5;  // Pin 14 of L293
